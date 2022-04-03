@@ -28,7 +28,11 @@ namespace Reticle {
         }
 
         private void btnColor_Click(object sender, EventArgs e) {
-            throw new System.NotImplementedException();
+            // Color dialog
+            ColorDialog dialog = new ColorDialog();
+            if (dialog.ShowDialog() != DialogResult.OK) return;
+            _overlay.Crosshair.Color = dialog.Color;
+            _overlay.Invalidate();
         }
 
         // Convert decimal to integer

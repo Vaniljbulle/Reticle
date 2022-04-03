@@ -38,7 +38,6 @@
             this.label5 = new System.Windows.Forms.Label();
             this.numOffsetY = new System.Windows.Forms.NumericUpDown();
             this.label6 = new System.Windows.Forms.Label();
-            this.colorDialog1 = new System.Windows.Forms.ColorDialog();
             ((System.ComponentModel.ISupportInitialize) (this.numLength)).BeginInit();
             ((System.ComponentModel.ISupportInitialize) (this.numGap)).BeginInit();
             ((System.ComponentModel.ISupportInitialize) (this.numThickness)).BeginInit();
@@ -174,10 +173,6 @@
             this.label6.Text = "Offset Y";
             this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // colorDialog1
-            // 
-            this.colorDialog1.SolidColorOnly = true;
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -221,7 +216,6 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.NumericUpDown numOffsetY;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.ColorDialog colorDialog1;
         private System.Windows.Forms.CheckBox cbDot;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
