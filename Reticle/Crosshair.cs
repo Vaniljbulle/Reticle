@@ -1,6 +1,6 @@
 ﻿using System.Drawing;
-using System.Windows.Forms;
 
+// CHANGE ME TO A STRUCT
 namespace Reticle {
     public class Crosshair {
         public Crosshair() {
@@ -12,7 +12,7 @@ namespace Reticle {
             OffsetY = 0;
             Dot = false;
         }
-        
+
         public bool Dot { get; set; }
         public int OffsetX { get; set; }
         public int OffsetY { get; set; }
